@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_HUB_CREDENTIALS = 'dockerhub-creds' 
-        IMAGE_NAME = 'tejasvi3697/sample-app'
+        IMAGE_NAME = 'username/sample-app'
         PORT = '5000'
     }
     stages {
